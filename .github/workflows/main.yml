@@ -37,7 +37,6 @@ jobs:
     name: Build
     needs:
       - lint
-      - test
     runs-on: ubuntu-latest
     env:
       VITE_APP_NAME: Github Pages
